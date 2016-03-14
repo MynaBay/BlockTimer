@@ -9,6 +9,16 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```ObjC
+#import "BlockTimer.h"
+
+[BlockTimer timerWithTimeInterval:2.0
+completion:^(BlockTimer *timer) {
+NSLog(@"Hello world 2 seconds later");
+}];
+
+```
+
 ## Requirements
 
 ## Installation
