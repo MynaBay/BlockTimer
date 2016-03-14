@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A90CCA71C96D52400DB379D /* BlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A90CCA51C96D52300DB379D /* BlockTimer.h */; };
+		0A90CCA81C96D52400DB379D /* BlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A90CCA61C96D52400DB379D /* BlockTimer.m */; };
+		0A90CCA91C96D52400DB379D /* BlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A90CCA61C96D52400DB379D /* BlockTimer.m */; };
+		0A90CCAA1C96D88400DB379D /* BlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A90CCA51C96D52300DB379D /* BlockTimer.h */; };
+		0A90CCAB1C96D88C00DB379D /* BlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A90CCA51C96D52300DB379D /* BlockTimer.h */; };
+		0A90CCAC1C96D89300DB379D /* BlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A90CCA61C96D52400DB379D /* BlockTimer.m */; };
+		0A90CCAD1C96D89300DB379D /* BlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A90CCA61C96D52400DB379D /* BlockTimer.m */; };
+		310331DBA5D09CD8BB223C617AB5244E /* BlockTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E96D01ABE7D76C547641D3A38FA024EE /* BlockTimer-dummy.m */; };
+		447D7AAA661E799733DBF806C7D2CBC5 /* Pods-BlockTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C1E0A6A2062EABEFA2A5E217491BAC /* Pods-BlockTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51D05CF74A8220144C7E164CA5722F97 /* Pods-BlockTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A276504A08669EC8ADBD2A245EA312E /* Pods-BlockTimer_Example-dummy.m */; };
+		599CE0109DD2F50604AEB61BAC21BB84 /* Pods-BlockTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D254DF2A85E818D30DDC2E26C7305182 /* Pods-BlockTimer_Tests-dummy.m */; };
+		6FA74F6E5F3979CFF0A5A1E4479E1BA6 /* BlockTimer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14B7443E4B179EC7FDBE1B4428F092AB /* BlockTimer.bundle */; };
+		710B0AFCF2CD3AA087880027324A1388 /* Pods-BlockTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BC8726672250F37B72C6CCF0159D0F /* Pods-BlockTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D69210BE7EDDE74E5FE9E8B0AB95F5D /* BlockTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61412943EF297C50D6B546B2FACD2466 /* BlockTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4850F6EAA4B0789E47155E7BEA9880A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DDBDF0BAA94C3BBD412154EAC6C2F1F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F98004556849A38F500E9686F94F8A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B85FDFEBF92CA57370C978BEBFE567A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A78C3031BCCF2B15550A461E1BBF8D3;
+			remoteInfo = "BlockTimer-BlockTimer";
+		};
+		D0BE1DDB37E176852BD017161290EC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 721931542D11209F0A76082AF465F16A;
+			remoteInfo = BlockTimer;
+		};
+		F62597E8A428C1C6DD1C03EC17AF435C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 721931542D11209F0A76082AF465F16A;
+			remoteInfo = BlockTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A90CCA51C96D52300DB379D /* BlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTimer.h; sourceTree = "<group>"; };
+		0A90CCA61C96D52400DB379D /* BlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTimer.m; sourceTree = "<group>"; };
+		12B09AFD0DDB833B1A7B62311941B18F /* BlockTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlockTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B7443E4B179EC7FDBE1B4428F092AB /* BlockTimer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTimer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CA8EF750B844514B9ACB9E0BDF2879 /* Pods-BlockTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BlockTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		2E4E2A05F6A73C50387898F4A6A2116A /* Pods-BlockTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4F47FC194536AF06FD9921C185E841BD /* Pods-BlockTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4F4D8DAB6B3982D4EC6C72904F682589 /* Pods-BlockTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockTimer_Tests-resources.sh"; sourceTree = "<group>"; };
+		54BE572798782A673F20DD36ED0F133F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C1E0A6A2062EABEFA2A5E217491BAC /* Pods-BlockTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlockTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		61412943EF297C50D6B546B2FACD2466 /* BlockTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockTimer-umbrella.h"; sourceTree = "<group>"; };
+		7D43044D969F4A462269C1CA1D57F9A8 /* Pods-BlockTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlockTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84D98120090AC6568B9ED6E6F53C33F9 /* Pods-BlockTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8733FA7BBF8FC91F60CCB8784CA63A3A /* Pods-BlockTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B0392B94F1A8451C718EA094D3CDFCD /* Pods-BlockTimer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockTimer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		950F16EB272FE7CE519A18BC8E7680F0 /* Pods-BlockTimer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockTimer_Example-resources.sh"; sourceTree = "<group>"; };
+		97D7780BD3D68D4CED333481DC96D76C /* Pods-BlockTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A276504A08669EC8ADBD2A245EA312E /* Pods-BlockTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlockTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		9DB2A7EDE22385805C82B04DDA4D8B10 /* Pods-BlockTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BlockTimer_Example.modulemap"; sourceTree = "<group>"; };
+		A2DFD6B8FBFB6E7ED6FF0F1B8EB0D11E /* Pods-BlockTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3DF035505ECA8D915D9AFE8A669E33F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BC8726672250F37B72C6CCF0159D0F /* Pods-BlockTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlockTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD8837EE1297EDD01FD10350F73EFEDB /* BlockTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BlockTimer.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4411AC733A0A76EC605582961ECCAB2 /* BlockTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockTimer-prefix.pch"; sourceTree = "<group>"; };
+		CB09F58B6E5AFAE2A780F8C1BED77ECB /* Pods_BlockTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D254DF2A85E818D30DDC2E26C7305182 /* Pods-BlockTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlockTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		D65DBF8A71CF93A1C65AEFEB4F203D11 /* Pods-BlockTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlockTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA8F5D0B5EB045B29D8E0C8BC91F07E8 /* Pods_BlockTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC18E016CBFA061A0B18243A2BC4233F /* Pods-BlockTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E96D01ABE7D76C547641D3A38FA024EE /* BlockTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlockTimer-dummy.m"; sourceTree = "<group>"; };
+		ECE89FD7EEA1DC9F237A4CF83B7F4314 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F190A74064EC6C7EB187CA2FC5B96751 /* BlockTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlockTimer.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E602357569F657981BD639A79DDEAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1C83209F92788BB72C7ABEB023A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4850F6EAA4B0789E47155E7BEA9880A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D967A4975F2D46F818DC7A67D7BBD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98004556849A38F500E9686F94F8A10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C637E3852FF19E6FEA7A29D9F915849A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDF0BAA94C3BBD412154EAC6C2F1F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6307ADF0704C2F29A08687FAD983B3 /* Pods-BlockTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ECE89FD7EEA1DC9F237A4CF83B7F4314 /* Info.plist */,
+				9DB2A7EDE22385805C82B04DDA4D8B10 /* Pods-BlockTimer_Example.modulemap */,
+				D65DBF8A71CF93A1C65AEFEB4F203D11 /* Pods-BlockTimer_Example-acknowledgements.markdown */,
+				A2DFD6B8FBFB6E7ED6FF0F1B8EB0D11E /* Pods-BlockTimer_Example-acknowledgements.plist */,
+				9A276504A08669EC8ADBD2A245EA312E /* Pods-BlockTimer_Example-dummy.m */,
+				8733FA7BBF8FC91F60CCB8784CA63A3A /* Pods-BlockTimer_Example-frameworks.sh */,
+				950F16EB272FE7CE519A18BC8E7680F0 /* Pods-BlockTimer_Example-resources.sh */,
+				60C1E0A6A2062EABEFA2A5E217491BAC /* Pods-BlockTimer_Example-umbrella.h */,
+				4F47FC194536AF06FD9921C185E841BD /* Pods-BlockTimer_Example.debug.xcconfig */,
+				84D98120090AC6568B9ED6E6F53C33F9 /* Pods-BlockTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-BlockTimer_Example";
+			path = "Target Support Files/Pods-BlockTimer_Example";
+			sourceTree = "<group>";
+		};
+		2CDE60972D3C8F6F460CBE04E69F904F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8837EE1297EDD01FD10350F73EFEDB /* BlockTimer.modulemap */,
+				F190A74064EC6C7EB187CA2FC5B96751 /* BlockTimer.xcconfig */,
+				E96D01ABE7D76C547641D3A38FA024EE /* BlockTimer-dummy.m */,
+				C4411AC733A0A76EC605582961ECCAB2 /* BlockTimer-prefix.pch */,
+				61412943EF297C50D6B546B2FACD2466 /* BlockTimer-umbrella.h */,
+				54BE572798782A673F20DD36ED0F133F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BlockTimer";
+			sourceTree = "<group>";
+		};
+		3AFB54BBADD37639C81F3318ABA4F68D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A90CCA51C96D52300DB379D /* BlockTimer.h */,
+				0A90CCA61C96D52400DB379D /* BlockTimer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5A8D196CA1A94AE0A96D6804369D27CB /* Pods-BlockTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF035505ECA8D915D9AFE8A669E33F /* Info.plist */,
+				28CA8EF750B844514B9ACB9E0BDF2879 /* Pods-BlockTimer_Tests.modulemap */,
+				7D43044D969F4A462269C1CA1D57F9A8 /* Pods-BlockTimer_Tests-acknowledgements.markdown */,
+				97D7780BD3D68D4CED333481DC96D76C /* Pods-BlockTimer_Tests-acknowledgements.plist */,
+				D254DF2A85E818D30DDC2E26C7305182 /* Pods-BlockTimer_Tests-dummy.m */,
+				8B0392B94F1A8451C718EA094D3CDFCD /* Pods-BlockTimer_Tests-frameworks.sh */,
+				4F4D8DAB6B3982D4EC6C72904F682589 /* Pods-BlockTimer_Tests-resources.sh */,
+				A5BC8726672250F37B72C6CCF0159D0F /* Pods-BlockTimer_Tests-umbrella.h */,
+				DC18E016CBFA061A0B18243A2BC4233F /* Pods-BlockTimer_Tests.debug.xcconfig */,
+				2E4E2A05F6A73C50387898F4A6A2116A /* Pods-BlockTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-BlockTimer_Tests";
+			path = "Target Support Files/Pods-BlockTimer_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9AE3EC697CF2069BE0206160A0B7C3CC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F83228C2CE44168454D0212AB18C2DD8 /* Products */,
+				7F68CFC8226052B39A59AA8FB8790E57 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F68CFC8226052B39A59AA8FB8790E57 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6307ADF0704C2F29A08687FAD983B3 /* Pods-BlockTimer_Example */,
+				5A8D196CA1A94AE0A96D6804369D27CB /* Pods-BlockTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9AE3EC697CF2069BE0206160A0B7C3CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B143DD67B2EA826AA126AF0790787C /* BlockTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A0F407F0FC685C43D87C5C4A0A45FA65 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB54BBADD37639C81F3318ABA4F68D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6B143DD67B2EA826AA126AF0790787C /* BlockTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A0F407F0FC685C43D87C5C4A0A45FA65 /* Pod */,
+				2CDE60972D3C8F6F460CBE04E69F904F /* Support Files */,
+			);
+			name = BlockTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F83228C2CE44168454D0212AB18C2DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B7443E4B179EC7FDBE1B4428F092AB /* BlockTimer.bundle */,
+				12B09AFD0DDB833B1A7B62311941B18F /* BlockTimer.framework */,
+				CB09F58B6E5AFAE2A780F8C1BED77ECB /* Pods_BlockTimer_Example.framework */,
+				DA8F5D0B5EB045B29D8E0C8BC91F07E8 /* Pods_BlockTimer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		242B242812D890B25EC32C407F0DD321 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A90CCA71C96D52400DB379D /* BlockTimer.h in Headers */,
+				8D69210BE7EDDE74E5FE9E8B0AB95F5D /* BlockTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A64FDDC7A1A813F3D7BC8347A60F08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A90CCAB1C96D88C00DB379D /* BlockTimer.h in Headers */,
+				710B0AFCF2CD3AA087880027324A1388 /* Pods-BlockTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304CEAF0AB4B9C9EB60574AB2BFFC36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A90CCAA1C96D88400DB379D /* BlockTimer.h in Headers */,
+				447D7AAA661E799733DBF806C7D2CBC5 /* Pods-BlockTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		721931542D11209F0A76082AF465F16A /* BlockTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108784350937698CC05C597E7BA36967 /* Build configuration list for PBXNativeTarget "BlockTimer" */;
+			buildPhases = (
+				1E2BD6358F817F0AF2499260C670CDF8 /* Sources */,
+				13B1C83209F92788BB72C7ABEB023A82 /* Frameworks */,
+				3D5DF587FDCBE2692FA482E3A28BBF50 /* Resources */,
+				242B242812D890B25EC32C407F0DD321 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E08B22B27770F8BFA6D739E96EE101 /* PBXTargetDependency */,
+			);
+			name = BlockTimer;
+			productName = BlockTimer;
+			productReference = 12B09AFD0DDB833B1A7B62311941B18F /* BlockTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A78C3031BCCF2B15550A461E1BBF8D3 /* BlockTimer-BlockTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3467176C8CB9E9E8C1EE60709785BD76 /* Build configuration list for PBXNativeTarget "BlockTimer-BlockTimer" */;
+			buildPhases = (
+				34F76235D951C600BB16EAC44AF15A39 /* Sources */,
+				0E602357569F657981BD639A79DDEAF4 /* Frameworks */,
+				D28561FDA78A5FF7362FC29FF1BCB52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockTimer-BlockTimer";
+			productName = "BlockTimer-BlockTimer";
+			productReference = 14B7443E4B179EC7FDBE1B4428F092AB /* BlockTimer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A3693B9244D1C0ABEA6508C454ECBC77 /* Pods-BlockTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769E17A5E4B3D9E15563C51E90CFCF8F /* Build configuration list for PBXNativeTarget "Pods-BlockTimer_Example" */;
+			buildPhases = (
+				3E69D96B9EAFD0B3CB26EA94AB02763F /* Sources */,
+				3D967A4975F2D46F818DC7A67D7BBD02 /* Frameworks */,
+				4304CEAF0AB4B9C9EB60574AB2BFFC36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CBCBEAFA1C7CAE82FB0DABA79D02B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlockTimer_Example";
+			productName = "Pods-BlockTimer_Example";
+			productReference = CB09F58B6E5AFAE2A780F8C1BED77ECB /* Pods_BlockTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5BCF5DB1F581E417E575DDE16C1ECA1 /* Pods-BlockTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837EC7EF9FF9FCCD43F6D8D1E72E37D7 /* Build configuration list for PBXNativeTarget "Pods-BlockTimer_Tests" */;
+			buildPhases = (
+				14B63AAEF9A26D45A4F8D83F11E15934 /* Sources */,
+				C637E3852FF19E6FEA7A29D9F915849A /* Frameworks */,
+				24A64FDDC7A1A813F3D7BC8347A60F08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84AB830A2F44F0199A171D4E1F81098 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlockTimer_Tests";
+			productName = "Pods-BlockTimer_Tests";
+			productReference = DA8F5D0B5EB045B29D8E0C8BC91F07E8 /* Pods_BlockTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F83228C2CE44168454D0212AB18C2DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				721931542D11209F0A76082AF465F16A /* BlockTimer */,
+				7A78C3031BCCF2B15550A461E1BBF8D3 /* BlockTimer-BlockTimer */,
+				A3693B9244D1C0ABEA6508C454ECBC77 /* Pods-BlockTimer_Example */,
+				C5BCF5DB1F581E417E575DDE16C1ECA1 /* Pods-BlockTimer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5DF587FDCBE2692FA482E3A28BBF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA74F6E5F3979CFF0A5A1E4479E1BA6 /* BlockTimer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28561FDA78A5FF7362FC29FF1BCB52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B63AAEF9A26D45A4F8D83F11E15934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599CE0109DD2F50604AEB61BAC21BB84 /* Pods-BlockTimer_Tests-dummy.m in Sources */,
+				0A90CCAD1C96D89300DB379D /* BlockTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2BD6358F817F0AF2499260C670CDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310331DBA5D09CD8BB223C617AB5244E /* BlockTimer-dummy.m in Sources */,
+				0A90CCA81C96D52400DB379D /* BlockTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F76235D951C600BB16EAC44AF15A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A90CCA91C96D52400DB379D /* BlockTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69D96B9EAFD0B3CB26EA94AB02763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D05CF74A8220144C7E164CA5722F97 /* Pods-BlockTimer_Example-dummy.m in Sources */,
+				0A90CCAC1C96D89300DB379D /* BlockTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CBCBEAFA1C7CAE82FB0DABA79D02B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlockTimer;
+			target = 721931542D11209F0A76082AF465F16A /* BlockTimer */;
+			targetProxy = D0BE1DDB37E176852BD017161290EC9C /* PBXContainerItemProxy */;
+		};
+		23E08B22B27770F8BFA6D739E96EE101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BlockTimer-BlockTimer";
+			target = 7A78C3031BCCF2B15550A461E1BBF8D3 /* BlockTimer-BlockTimer */;
+			targetProxy = B85FDFEBF92CA57370C978BEBFE567A7 /* PBXContainerItemProxy */;
+		};
+		C84AB830A2F44F0199A171D4E1F81098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlockTimer;
+			target = 721931542D11209F0A76082AF465F16A /* BlockTimer */;
+			targetProxy = F62597E8A428C1C6DD1C03EC17AF435C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5078BD76A8A6BD6507776E8BBF1D2B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F47FC194536AF06FD9921C185E841BD /* Pods-BlockTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockTimer_Example/Pods-BlockTimer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BlockTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6487829A09CD6C429E581919B2DD10B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F190A74064EC6C7EB187CA2FC5B96751 /* BlockTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlockTimer/BlockTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlockTimer/BlockTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BlockTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		959EDA308BB815405F8843D5D53A7B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F190A74064EC6C7EB187CA2FC5B96751 /* BlockTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BlockTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CB058E82B2127403C7AADAE1F6A409B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D98120090AC6568B9ED6E6F53C33F9 /* Pods-BlockTimer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockTimer_Example/Pods-BlockTimer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BlockTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4ED8DD1C4CE2E8E57F6EA63202B9008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F190A74064EC6C7EB187CA2FC5B96751 /* BlockTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BlockTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E5E60B393A3A27001F54B1173329524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F190A74064EC6C7EB187CA2FC5B96751 /* BlockTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlockTimer/BlockTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlockTimer/BlockTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BlockTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7A3B48C3EF1D03C3059FAB12B7D559B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E4E2A05F6A73C50387898F4A6A2116A /* Pods-BlockTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockTimer_Tests/Pods-BlockTimer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BlockTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF87A0F72866372EC0FBA57AEB3273A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC18E016CBFA061A0B18243A2BC4233F /* Pods-BlockTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockTimer_Tests/Pods-BlockTimer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BlockTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108784350937698CC05C597E7BA36967 /* Build configuration list for PBXNativeTarget "BlockTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6487829A09CD6C429E581919B2DD10B7 /* Debug */,
+				E5E60B393A3A27001F54B1173329524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3467176C8CB9E9E8C1EE60709785BD76 /* Build configuration list for PBXNativeTarget "BlockTimer-BlockTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4ED8DD1C4CE2E8E57F6EA63202B9008 /* Debug */,
+				959EDA308BB815405F8843D5D53A7B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769E17A5E4B3D9E15563C51E90CFCF8F /* Build configuration list for PBXNativeTarget "Pods-BlockTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5078BD76A8A6BD6507776E8BBF1D2B90 /* Debug */,
+				CB058E82B2127403C7AADAE1F6A409B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837EC7EF9FF9FCCD43F6D8D1E72E37D7 /* Build configuration list for PBXNativeTarget "Pods-BlockTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF87A0F72866372EC0FBA57AEB3273A3 /* Debug */,
+				E7A3B48C3EF1D03C3059FAB12B7D559B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

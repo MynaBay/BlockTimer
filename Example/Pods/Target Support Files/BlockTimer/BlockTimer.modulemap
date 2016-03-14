@@ -1,0 +1,6 @@
+framework module BlockTimer {
+  umbrella header "BlockTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

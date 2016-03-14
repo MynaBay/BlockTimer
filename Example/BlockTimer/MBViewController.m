@@ -7,6 +7,8 @@
 //
 
 #import "MBViewController.h"
+    //#import "BlockTimer.h"
+
 
 @interface MBViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+        //[BlockTimer timerWith]
 }
 
 - (void)didReceiveMemoryWarning

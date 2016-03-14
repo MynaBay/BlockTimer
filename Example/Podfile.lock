@@ -1,0 +1,14 @@
+PODS:
+  - BlockTimer (0.1.0)
+
+DEPENDENCIES:
+  - BlockTimer (from `../`)
+
+EXTERNAL SOURCES:
+  BlockTimer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlockTimer: 33b0ba8f58bf4a01ba0eb3771ba05775dfe58392
+
+COCOAPODS: 0.39.0

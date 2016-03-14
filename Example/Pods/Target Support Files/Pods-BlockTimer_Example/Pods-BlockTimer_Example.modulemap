@@ -1,0 +1,6 @@
+framework module Pods_BlockTimer_Example {
+  umbrella header "Pods-BlockTimer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
