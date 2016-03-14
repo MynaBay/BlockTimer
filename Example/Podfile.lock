@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BlockTimer: 33b0ba8f58bf4a01ba0eb3771ba05775dfe58392
+  BlockTimer: ed2d5accf162908d7eab3fbf8dca3138be71c2f4
 
 COCOAPODS: 0.39.0

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2BB1E7A8F607C804D554418C'
+               BlueprintIdentifier = 'D1A34644F6E59DB27D1A7CC9'
                BlueprintName = 'BlockTimer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'BlockTimer.framework'>

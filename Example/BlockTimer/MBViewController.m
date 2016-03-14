@@ -7,7 +7,7 @@
 //
 
 #import "MBViewController.h"
-    //#import "BlockTimer.h"
+#import "BlockTimer.h"
 
 
 @interface MBViewController ()
@@ -21,7 +21,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-        //[BlockTimer timerWith]
+    NSLog(@"Say hello in 2 seconds");
+    
+    [BlockTimer timerWithTimeInterval:2.0
+                           completion:^(BlockTimer *timer) {
+                                                                NSLog(@"Hello world 2 seconds later");
+                                                            }];
+    
 }
 
 - (void)didReceiveMemoryWarning
