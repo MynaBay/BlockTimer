@@ -9,16 +9,19 @@
 
 @interface BlockTimer : NSObject
 
-+(BlockTimer*) timerWithTimeInterval:(NSTimeInterval)ti completion:(void(^)(BlockTimer* timer))block;
-+(BlockTimer*) timerWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo completion:(void(^)(BlockTimer* timer))block;
++(BlockTimer* _Nonnull) timerWithTimeInterval:(NSTimeInterval)ti completion:(void(^ _Nullable)(BlockTimer* _Nonnull timer))block;
++(BlockTimer* _Nonnull) timerWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo completion:(void(^ _Nullable)(BlockTimer* _Nonnull timer))block;
 
--(BlockTimer*) initWithTimeInterval:(NSTimeInterval)ti completion:(void(^)(BlockTimer* timer))block;
--(BlockTimer*) initWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo completion:(void(^)(BlockTimer* timer))block;
+-(BlockTimer* _Nonnull) initWithTimeInterval:(NSTimeInterval)ti completion:(void(^ _Nullable)(BlockTimer* _Nonnull timer))block;
+-(BlockTimer* _Nonnull) initWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo completion:(void(^ _Nullable)(BlockTimer* _Nonnull timer))block;
 
 -(void) fire;
 -(void) invalidate;
 
 @property (readonly) NSTimeInterval timeInterval;
+@property (readonly) NSTimeInterval timeRemaining;
 @property (readonly) BOOL valid;
+
+@property (nullable, strong) id userInfo;
 
 @end

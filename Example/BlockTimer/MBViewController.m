@@ -19,14 +19,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
+    BlockTimer* goodbyeTimer = [BlockTimer timerWithTimeInterval:5.0
+                                               completion:^(BlockTimer *timer)
+                                                            {
+                                                                NSLog(@"Goodbye");
+                                                            }];
     NSLog(@"Say hello in 2 seconds");
     
     [BlockTimer timerWithTimeInterval:2.0
-                           completion:^(BlockTimer *timer) {
-                                                                NSLog(@"Hello world 2 seconds later");
-                                                            }];
+                           completion:^(BlockTimer *timer)
+                                        {
+                                            NSLog(@"Hello world!");
+                                            NSLog(@"There are %f seconds on goodbye timer",goodbyeTimer.timeRemaining);
+                                        }];
     
 }
 
