@@ -27,8 +27,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => "https://github.com/MynaBay/BlockTimer.git", :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/MynaBay'
 
-    s.platform = :ios, '8.0'
-    s.platform = :osx, '10.7'
+    s.platforms = { :ios => "8.0", :osx => "10.7" }
     s.requires_arc = true
 
     s.source_files = 'Pod/Classes/**/*'
