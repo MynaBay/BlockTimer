@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = "BlockTimer"
-    s.version          = "0.2.0"
+    s.version          = "0.2.1"
     s.summary          = "BlockTimer is an NSTimer wrapper that executes a code block."
 
     # This description is used to generate tags and improve search results.
