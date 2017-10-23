@@ -42,11 +42,13 @@
     if( self = [super init] )
     {
         _completionBlock = compBlock;
-        _internalTimer = [NSTimer scheduledTimerWithTimeInterval:interval
-                                                          target:self
-                                                        selector:@selector(timerCallback)
-                                                        userInfo:NULL
-                                                         repeats:NO];
+        _internalTimer = [NSTimer timerWithTimeInterval:interval
+                                                 target:self
+                                               selector:@selector(timerCallback)
+                                               userInfo:NULL
+                                                repeats:NO];
+        
+        [NSRunLoop.mainRunLoop addTimer:_internalTimer forMode:NSRunLoopCommonModes];
     }
     return self;
 }
@@ -56,11 +58,13 @@
     if( self = [super init] )
     {
         _completionBlock = compBlock;
-        _internalTimer = [NSTimer scheduledTimerWithTimeInterval:interval
-                                                          target:self
-                                                        selector:@selector(timerCallback)
-                                                        userInfo:NULL
-                                                         repeats:repeatsYesOrNo];
+        _internalTimer = [NSTimer timerWithTimeInterval:interval
+                                                 target:self
+                                               selector:@selector(timerCallback)
+                                               userInfo:NULL
+                                                repeats:repeatsYesOrNo];
+        
+        [NSRunLoop.mainRunLoop addTimer:_internalTimer forMode:NSRunLoopCommonModes];
     }
     return self;
 }
@@ -79,7 +83,7 @@
 
 -(void) fire
 {
-    [self.internalTimer fire];
+    [_internalTimer fire];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
